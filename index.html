@@ -879,6 +879,30 @@ a { color: inherit; text-decoration: none; display: block; }
   </ul>
 </li>
 
+<!-- The Vampire Diaries -->
+<li onclick="toggle('thevampirediaries')">🩸The Vampire Diaries
+  <ul class="submenu" id="thevampirediaries">
+
+    <li onclick="toggle(event,'elena')">Elena
+      <ul class="subsubmenu" id="elena">
+
+    <!-- Look 1 (vestido azul) -->
+        <li onclick="toggle(event,'elenalook1')" class="look-item">
+          <div class="look-header">
+            <img src="https://i.pinimg.com/originals/27/a8/1b/27a81b4e122a9fdd7a846b47d7467313.jpg" class="look-img">
+            <span>Look 1</span>
+          </div>
+          <ul class="subsubsubmenu" id="elenalook1">
+            <li><a href="https://s.shopee.com.br/4AwCCnV9mz" target="_blank"  onclick="event.stopPropagation()">Vestido Azul</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </li>
+
+  </ul>
+</li>
+
 <!-- EM BREVE -->
 <li onclick="toggle('embreve')">⏳ Em breve
   <ul class="submenu" id="embreve">
